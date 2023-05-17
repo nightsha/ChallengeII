@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding-left: 10px;
+    list-style: none;
+}
+
+.sectionContainer {
+    display: flex;
+width: 100%;
+justify-content:space-between ; }
+
+.flexitems{
+  background-image: url("https://thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg");  flex-basis: 45%;
+width: 100%;
+
+}
+
+
+ 
+
