@@ -1,8 +1,10 @@
 header {
     display: flex;
     justify-content: space-between;
-
+     color: blue;
+     background-color: aquamarine;
 }
+
 
 ul {
     display: flex;
@@ -13,17 +15,36 @@ li {
     list-style: none;
 }
 
-.sectionContainer {
+#first {
+     flex: wrap; 
+     text-align: center; 
+    width: 100%; 
+    color: blue;
+    background-color: aquamarine;
+    border: solid;
+}
+#second {
+    
     display: flex;
-width: 100%;
-justify-content:space-between ; }
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+ }
+
+ #third {
+
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+
+
+
+ }
 
 .flexitems{
   background-image: url("https://thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg");  flex-basis: 45%;
 width: 100%;
 
 }
-
-
- 
 
