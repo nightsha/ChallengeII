@@ -1,7 +1,5 @@
-.flexbox-container {
- display: flex;
-
-}
+/* .flexbox-container { */
+ 
 
 header {
     display: flex;
@@ -30,7 +28,7 @@ nav a{
   margin-right: 30px;
   padding: 10px;
  text-decoration: none;
- color: black;
+ color: darkmagenta;
 
 }
 
@@ -44,10 +42,24 @@ color: red;
 }
 
 #feature-project{
+  background-color: blueviolet;
+
+}
+.fit-picture {
+  width: 250px;
+}
   
+
+
+#second-project{
+  background-color: chartreuse;
+
 }
 
-
+#third-project{
+  background-color: crimson;
+  
+}
 
 
 
@@ -55,12 +67,30 @@ color: red;
   
 
 .subtitleh3 {
-  position: absolute;
-  bottom: 2px;
-  right: 780px;
+  display: flex;
+    position: relative;
+  /* position: absolute; */
+  /* bottom: 2px; */
+  /* right: 780px; */
 }
 
-  
+#contact {
+  color: black;  
+} 
 
+a[href*= "tel:661-496-7050" ] {
+  color: red;
+
+}
+
+a[href*= "mailto:mauimechar@gmail.com"] {
+  color: red;
+
+}
+
+  a[href*= "https://github.com/nightsha"] {
+    color: red;
+
+}
 
 
