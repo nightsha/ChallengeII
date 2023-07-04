@@ -4,16 +4,15 @@
 header {
     display: flex;
     justify-content: space-between;
-    
-     color: blue;
-     background-color: aquamarine;
+    color: blue;
+    background-color: aquamarine;
 }
 
 
 ul {
 
-     display: flex;
-     justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
      
@@ -37,27 +36,25 @@ color: red;
 }
 /* junior web developer */
 #first{
+  display: flex;
 
   position: relative;
 }
 
 #feature-project{
-  background-color: blueviolet;
-
-}
-.fit-picture {
-  width: 250px;
-}
+  /* background-color: blueviolet; */
   
+}
+ 
 
 
 #second-project{
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 
 }
 
 #third-project{
-  background-color: crimson;
+  /* background-color: crimson; */
   
 }
 
